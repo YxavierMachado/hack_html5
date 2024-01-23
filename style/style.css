@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+}
+
+p{font-size: 1em;}
+
+body{
+    margin: 0;
+}
+
+header{
+    padding: 25px 30px;
+}
+
+header .juntos{
+    display: flex;
+    align-items: center;
+}
+
+header .circle{
+     background: #7ED957;
+     height: 20px;
+     width: 20px;
+     border-radius: 100%;
+}
+
+header .logo1{
+    font-weight: bold;
+    margin: 10px 0 10px 10px;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 5px;
+}
+
+#banner{
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 15px;
+    height: 90vh;
+    background-image: url(../imagenes/1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner > h1{
+    background:#00BF63;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#banner > h4{
+    background:black;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+#soluciones-creativas .container{
+    text-align: center;
+    padding: 50px 12px;
+}
+
+
+
+#imagenes-unidas .container{
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 12px;
+}
+
+#imagenes-unidas .cartas{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#imagenes-unidas .img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 150px;
+
+}
+
+#imagenes-unidas .img > .edit{
+    width: 150px;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 12px;
+    background: #00BF63;
+    color: white;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 720px){
+
+    header{
+        margin: 0;
+    }
+
+    header .container{
+        justify-content: space-between;
+        display: flex;
+        flex-direction:row;
+        margin: 0;
+    }
+
+    #banner .text1{
+        background:#00BF63;
+        margin-bottom: 10px;
+        color: white;
+        width: 250px;
+        height: 30px;
+        text-align: right;
+        padding: 0 30px;
+    }
+    #banner .text2{
+        background:#00BF63;
+        margin-bottom: 10px;
+        color: white;
+        width: 390px;
+        height: 30px;
+        text-align: right;
+        padding: 0 0px;
+        margin-left: 10px;
+    }
+
+    #banner .text3{
+        background:#00BF63;
+        margin-bottom: 10px;
+        color: white;
+        width: 390px;
+        height: 30px;
+        padding: 0 0 0 70px;
+        margin-left: 10px;
+    }
+    
+    #banner .text4{
+        background:black;
+        margin-bottom: 10px;
+        color: white;
+        width: 350px;
+        height: 20px;
+        padding: 0 0 0 30px;
+        margin-left: 10px;
+    }
+
+    #banner .text5{
+        background:black;
+        margin-bottom: 10px;
+        color: white;
+        width: 280px;
+        height: 20px;
+        padding: 0 0 0 20px;
+        margin-left: 20px;
+    }
+
+    #soluciones-creativas .container{
+        text-align:start;
+        padding: 30px 0 0px 0;
+        padding-left: 130px;
+        margin: 0 0 0 30px;
+    }
+
+    #imagenes-unidas .programas{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    footer .container{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        text-align: center;
+        background: #00BF63;
+        color: white;
+        height: 50px;
+        margin: 0px 50px 10px  50px;
+    }
+
+    }
